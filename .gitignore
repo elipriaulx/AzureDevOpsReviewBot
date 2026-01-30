@@ -416,3 +416,12 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# User-specific settings (contains PAT and personal configuration)
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
+# Runtime files
+*.log
+review-state.json
